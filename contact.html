@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Sekolah Al-irsyad</title>
+    <link rel="stylesheet" href="CSS{.css">
+</head>
+<body>
+    <header>
+        <h1>Kontak Sekolah Al-irsyad</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="event.html">Kegiatan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Formulir Kontak</h2>
+        <form action="submit_contact.php" method="POST">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; By:Skinfa@gmail.com </p>
+    </footer>
+</body>
+</html>
